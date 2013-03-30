@@ -89,3 +89,15 @@ diff -up firefox-3.6.4/mozilla-1.9.2/browser/components/shell/src/nsGNOMEShellSe
  
    NS_DECL_ISUPPORTS
    NS_DECL_NSISHELLSERVICE
+diff -up firefox-3.6.4/mozilla-1.9.2/browser/components/shell/src/Makefile.in.without-default firefox-3.6.4/mozilla-1.9.2/browser/components/shell/src/Makefile.in
+--- firefox-3.6.4/mozilla-1.9.2/browser/components/shell/src/Makefile.in.without-default	2011-01-24 16:23:35.000000000 +0100
++++ firefox-3.6.4/mozilla-1.9.2/browser/components/shell/src/Makefile.in	2011-01-24 16:23:48.215238901 +0100
+@@ -88,7 +88,7 @@ ifdef CPPSRCS
+ LIBRARY_NAME = shellservice_s
+ endif
+ 
+-EXTRA_COMPONENTS = nsSetDefaultBrowser.js
++#EXTRA_COMPONENTS = nsSetDefaultBrowser.js
+ 
+ include $(topsrcdir)/config/rules.mk
+ 
